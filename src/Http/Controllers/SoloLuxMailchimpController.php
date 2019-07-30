@@ -11,6 +11,8 @@ use App\Customer;
 class SoloLuxMailchimpController extends Controller
 {
 	public $mailchimp;
+ 	public $listId;
+ 	
     // public $listId = '5c65d1c4bd';
 
     public function __construct(\Mailchimp $mailchimp)
